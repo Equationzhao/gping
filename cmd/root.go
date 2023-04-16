@@ -25,6 +25,7 @@ const (
 func Execute() {
 	app := cli.NewApp()
 	app.Name = "gping"
+	app.UsageText = "gping [options] hosts..."
 	app.Usage = "a ping tool written in golang"
 	app.Version = "0.0.1"
 	var count int = 5
