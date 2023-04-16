@@ -20,7 +20,7 @@ clean:
 	rm -rf build
 
 install:
-	go install gping
+	go install github.com/equationzhao/gping
 	@ if [ "$(OS)" = "linux" ]; then sudo setcap cap_net_raw=+ep $(GOPATH)/bin/gping; fi
 
 uninstall:
@@ -29,5 +29,5 @@ uninstall:
  		then sudo setcap -r $(GOPATH)/bin/gping; \
  	elif [ "$(OS)" = "darwin" ]; \
  	  	then sudo chflags nosuid $(GOPATH)/bin/gping; \
- 	elif [ "$(OS)" = "windows" ]; then rm -f "${GOPATH}\\bin\\gping.exe" /remove "Everyone";\
+ 	elif [ "$(OS)" = "windows" ]; then rm -f "${GOPATH}\\bin\\gping.exe";\
  	fi;

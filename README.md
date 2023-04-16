@@ -19,3 +19,13 @@ PING google.com 56 bytes of data.
 4 packets transmitted, 4 packets received, 0% packet loss, time 3085ms
 rtt min/avg/max/mdev = 0.683/0.866/1.045/0.128 ms
 ```
+
+## install
+```bash
+make install
+```
+or 
+
+```bash
+go get github.com/orvice/gping
+```

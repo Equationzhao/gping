@@ -1,4 +1,4 @@
-module gping
+module github.com/equationzhao/gping
 
 go 1.20
 

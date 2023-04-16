@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"gping/tool"
+	"github.com/equationzhao/gping/tool"
 
 	"github.com/go-ping/ping"
 
