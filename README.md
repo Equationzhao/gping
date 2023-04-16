@@ -27,5 +27,5 @@ make install
 or 
 
 ```bash
-go install github.com/orvice/gping
+go install github.com/equationzhao/gping
 ```
