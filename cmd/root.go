@@ -28,7 +28,7 @@ func Execute() error {
 	app.Name = "gping"
 	app.UsageText = "gping [options] hosts..."
 	app.Usage = "a ping tool written in golang"
-	app.Version = "0.0.1"
+	app.Version = "0.0.2"
 	count := 65535
 	app.Flags = []cli.Flag{
 		&cli.IntFlag{
